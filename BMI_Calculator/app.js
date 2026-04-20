@@ -21,6 +21,6 @@ function calculateBMI(){
     else {
         resultText = "You are in a healthy weight range. Great job!";
     }
-    console.log(resultText);
+    // console.log(resultText);
     document.getElementById('result').innerHTML = resultText;
 }
